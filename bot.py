@@ -6,7 +6,7 @@ from waitress import serve
 # === НАСТРОЙКИ ===
 TOKEN = "7892998801:AAFxY1aSf-2npCc2d8g0f8VOt_ssWKBse8s"
 AUTHORIZED_USERS = [760203245]  # пока только ты
-WEBHOOK_URL = f"https://<render-url>.onrender.com/{TOKEN}"  # заменим позже
+WEBHOOK_URL = "https://finance-tracker-bot-hgb3.onrender.com/7892998801:AAFxY1aSf-2npCc2d8g0f8VOt_ssWKBse8s"
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
